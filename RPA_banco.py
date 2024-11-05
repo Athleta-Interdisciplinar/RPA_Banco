@@ -52,9 +52,6 @@ try:
         banco_a_cursor.execute(f"SELECT {columns} FROM {tabela} WHERE transferir = True")
         rows_a = banco_a_cursor.fetchall()
 
-
-
-
         if rows_a:
             # Inserir ou atualizar no Banco B
             for row in rows_a:
