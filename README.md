@@ -19,3 +19,6 @@ Seleciona os registros onde o campo transferir está marcado como True
 Insere ou atualiza os registros no banco de dados de destino
 Atualiza o campo transferir para False após a sincronização para evitar duplicação
 Fechamento das conexões: Os cursores e as conexões são fechados após a conclusão do processo de sincronização.
+
+# RPA_banco
+### Projeto RPA - Integração de Bases de Dados Descrição do Projeto Este projeto de RPA (Robotic Process Automation) foi desenvolvido para automatizar a integração entre duas bases de dados, facilitando a transferência de informações entre sistemas que compartilham a mesma estrutura de dados. Com o uso de RPA, o processo torna-se mais eficiente, eliminando tarefas manuais repetitivas e minimizando a possibilidade de erros na migração dos dados.
