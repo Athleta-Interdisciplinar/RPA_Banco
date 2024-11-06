@@ -32,4 +32,4 @@ jobs:
             echo "Conectando no EC2"
             echo "${{secrets.AWS_MINHA_CHAVE}}" > private_key && chmod 600 private_key
             ssh -o StrictHostKeyChecking=no -i private_key ubuntu@ec2-98-80-21-226.compute-1.amazonaws.com "
-                  cd <nome repositorio>/;git pull;./executar.sh"
+                  cd RPA_banco/;git pull;./executar.sh"
